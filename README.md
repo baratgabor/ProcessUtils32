@@ -1,6 +1,8 @@
 ## ProcessUtils32
 
-Simple utility class that uses various PInvoke functions to read information from the virtual address space of other running processes. **Compatible only with 32 bit processes.**
+Simple utility class that uses various PInvoke functions to read information from the virtual address space of other processes. 
+
+**Compatible only with 32 bit processes. NOTE that all methods are public, but the majority of them don't do bitness checks.**
 
 Main features:
 - Getting the address of the **ThreadStack0** symbol used by CheatEngine

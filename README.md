@@ -5,7 +5,7 @@ Simple utility class that uses various PInvoke functions to read information fro
 **Compatible only with 32 bit processes. NOTE that all methods are public, but the majority of them don't do bitness checks.**
 
 Main features:
-- Getting the address of the **ThreadStack0** symbol used by CheatEngine
+- Getting the address of the elusive **ThreadStack0** symbol used by CheatEngine
 - Following pointer chains, and reading a result into a chosen type
 
 I'll probably convert it sometime to use unsafe code and pointers, plus I'll write a 64 bit equivalent.
